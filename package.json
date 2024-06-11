@@ -1,0 +1,22 @@
+{
+  "name": "neet-scraper-live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/qs": "^6.9.15",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cherio": "^1.0.0-rc.2",
+    "qs": "^6.12.1",
+    "typescript": "^5.4.5"
+  }
+}
